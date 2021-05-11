@@ -19,9 +19,17 @@ export default {
        */
       const isPrime = checker.some((check) => i % check === 0); //(e.g 5%2 = false, 5%3 = false, 5%4 = false)
 
-      // if isPrime is false, it implies that the value is a prime number, and it would enter the if statement and push it into store (i.e primeNo)
+      /**
+       if isPrime is false, it implies that the value is a prime number, and it would enter the if 
+       statement and push it into store (i.e primeNo)
+       */
       if (!isPrime) {
         primeNo.push(i);
+      }
+
+      // return the function when we have the first 10 prime numbers
+      if (primeNo.length === 10) {
+        return primeNo;
       }
     }
     return primeNo;
