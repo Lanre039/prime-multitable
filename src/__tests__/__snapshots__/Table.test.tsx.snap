@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="table"
+    style="visibility: hidden;"
+  >
+    <table>
+      <thead>
+        <tr>
+          <th />
+          <th>
+            Enter positive integer greater than 1 only (e.g 2,3,4 etc.)
+          </th>
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+  </div>
+</DocumentFragment>
+`;
